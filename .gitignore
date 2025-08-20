@@ -1,0 +1,35 @@
+# --------------------
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# --------------------
+# Data & Models
+# ignore all contents but keep .gitkeep placeholders
+data/*
+!data/**/.gitkeep
+
+models/*
+!models/.gitkeep
+
+# --------------------
+# Reports (optional)
+reports/*
+!reports/.gitkeep
+
+# --------------------
+# OS / Editor
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+Desktop.ini
+# IDEs
+.vscode/
+.idea/
